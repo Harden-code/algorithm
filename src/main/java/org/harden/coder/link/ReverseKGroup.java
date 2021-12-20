@@ -29,6 +29,7 @@ import java.util.List;
 public class ReverseKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode p = head;
+        //存头节点
         ListNode temp = head;
         ListNode newHead = new ListNode(-1);
         ListNode tail = newHead;
