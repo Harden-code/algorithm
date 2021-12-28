@@ -38,15 +38,6 @@ public class HasCycle {
             slow = slow.next;
         }
         return true;
-//        while (fast != null && fast.next!=null ) {
-//            //[1,1,1,1]
-//            if(fast.val==slow.val){
-//                return true;
-//            }
-//            //指针移动
-//            slow = slow.next;
-//            fast = fast.next.next;
-//        }
     }
 
 
