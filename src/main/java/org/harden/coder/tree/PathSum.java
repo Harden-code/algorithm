@@ -33,7 +33,7 @@ public class PathSum {
      * @param target 目标值
      */
     public void dfs(TreeNode root, List<Integer> result, int sum, int target) {
-        //到节点后，需要弹出元素
+        //到节点后，需要弹出元素 要提到最前，避免漏掉最后一个
         result.add(root.val);
         //这是到尾节点的情况，如果按照前序遍历去遍历，会出现两次出栈
         if(root.right==null&&root.left==null){
