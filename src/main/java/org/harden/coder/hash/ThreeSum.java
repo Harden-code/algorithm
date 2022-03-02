@@ -1,7 +1,5 @@
 package org.harden.coder.hash;
 
-import com.sun.org.apache.xerces.internal.xs.LSInputList;
-import sun.rmi.log.LogInputStream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

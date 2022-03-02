@@ -1,6 +1,6 @@
 package org.harden.coder.binary;
 
-import sun.security.provider.MD2;
+
 
 /**
  * @author ：junsenfu
