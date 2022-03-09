@@ -1,6 +1,5 @@
 package org.harden.coder.dp;
 
-import sun.security.pkcs11.Secmod;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,29 +16,29 @@ public class CanPartition {
 
     //0-1 背包问题，挑选一些数出来，作为数组和的一半
     public boolean canPartition(int[] nums) {
-        int max = Arrays.stream(nums).reduce(Integer::sum).getAsInt();
-        if (max % 2 != 0) {
+        if(nums.length==1){
             return false;
         }
-        int target = max / 2;
-        //dp[i][j]=dp[i-1][j] || dp[i-1][target-dp[i - 1][j]]+num[i] 每个阶段,放入或者不放入
-        int[][] dp = new int[nums.length][target+1];
-        dp[0][0] = 0;
-        dp[0][nums[0]] = nums[0];
-        for (int i = 1; i < dp.length; i++) {
-            for (int j = 1; j < dp[0].length; j++) {
-                //dp[i-1][j]>0在上一个放的基础上做抉择
-                if (dp[i - 1][j] > 0 && target - dp[i - 1][j] >= 0) {
-                    dp[i][j] = dp[i - 1][j];
-                    dp[i][target - dp[i - 1][j]] = dp[i - 1][j] + nums[i];
-                    if(dp[i][j]== target||dp[i][target - dp[i - 1][j]]==target){
-                        return true;
-                    }
+        int asInt = Arrays.stream(nums).reduce(Integer::sum).getAsInt();
+        //奇数直接返回
+        if (asInt % 2 != 0) return false;
+        int k=asInt / 2;
+        //每个阶段代表放入物品的总数
+        boolean[][] dp = new boolean[nums.length][ k+ 1];
+        Arrays.sort(nums);
+        dp[0][nums[0]] = true;
+        dp[0][0] = true;
+        //i个阶段
+        for(int i=1;i<nums.length;i++){
+            //i个阶段的j为可达状态
+            for(int j=0;j<=asInt/2;j++){
+                //上个阶段推倒过来dp[i-1][j]不装 dp[i-1][j-nums[i]] 代表装入j-nums[i]这阶段的如逆推
+                if(dp[i-1][j]||(j-nums[i]>=0&&dp[i-1][j-nums[i]])){
+                    dp[i][j]=true;
                 }
             }
         }
-        print(dp);
-        return false;
+        return dp[nums.length-1][k];
     }
 
     private void print(int[][] dp) {
@@ -80,9 +79,6 @@ public class CanPartition {
     }
 
 
-
-
-
     public boolean rs(int max, int i, int[] nums, int len) {
         if (i == len) {
             if (max == 0) {
@@ -98,8 +94,9 @@ public class CanPartition {
         CanPartition canPartition = new CanPartition();
         int[] nums = {1, 2, 3, 5};
         int[] nums1 = {1, 5, 11, 5};
-        int[] nums2={14,9,8,4,3,2};
-        int[] nums3={3,3,3,4,5};
-        System.out.println(canPartition.canPartition(nums2));
+        int[] nums2 = {14, 9, 8, 4, 3, 2};
+        int[] nums3 = {3, 3, 3, 4, 5};
+        int[] n={100};
+        System.out.println(canPartition.canPartition(n));
     }
 }
