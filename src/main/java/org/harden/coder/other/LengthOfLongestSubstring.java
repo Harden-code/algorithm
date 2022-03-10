@@ -1,6 +1,8 @@
 package org.harden.coder.other;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -16,19 +18,23 @@ public class LengthOfLongestSubstring {
             return 0;
         }
         int result = Integer.MIN_VALUE;
-        Set<Character> window = new HashSet<>();
-        for (int i = 0; i < s.length(); i++) {
+        List<Character> window = new ArrayList<>();
+        //游标会动
+//        for (int i = 0; i < s.length(); i++) {
+        int i=0;
+        while (i<s.length()){
             char c = s.charAt(i);
             if (!window.contains(c)) {
                 window.add(c);
                 result = Math.max(result, window.size());
+                i++;
             } else {
-                for (int j = 0; j < i; j++) {
+
+                for (int j = 0; j < window.size(); j++) {
                     if (window.contains(c)) {
-                        window.remove(s.charAt(j));
+                        window.remove(0);
                     }
                 }
-                window.add(c);
             }
         }
         return result;
@@ -36,6 +42,7 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
-        System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring("aabaab!bb"));
+        //abcabcbb ohvhjdml
+        System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring("ohvhjdml"));
     }
 }
