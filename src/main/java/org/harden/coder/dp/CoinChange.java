@@ -28,7 +28,7 @@ public class CoinChange {
             for (int j = 1; j < amount + 1; j++) {
                 for (int k = 0; k <= amount / coins[i]; k++) {
                     if (j - k * coins[i] >= 0 && dp[i - 1][j - k * coins[i]] != Integer.MAX_VALUE
-                            && dp[i - 1][j - k * coins[i]]+k<dp[i][j]) {
+                            && dp[i - 1][j - k * coins[i]] + k < dp[i][j]) {
                         dp[i][j] = dp[i - 1][j - k * coins[i]] + k;
                     }
 
@@ -36,7 +36,7 @@ public class CoinChange {
             }
         }
         Print.print(dp);
-        return dp[coins.length-1][amount]==0||dp[coins.length-1][amount]==Integer.MAX_VALUE?-1:dp[coins.length-1][amount];
+        return dp[coins.length - 1][amount] == 0 || dp[coins.length - 1][amount] == Integer.MAX_VALUE ? -1 : dp[coins.length - 1][amount];
     }
 
     public int coinChangeBak(int[] coins, int amount) {
@@ -67,7 +67,7 @@ public class CoinChange {
         CoinChange coinChange = new CoinChange();
 //        int[] i = {1, 2};
         int amount = 10;
-        int[] i={1,2,5};
+        int[] i = {1, 2, 5};
         System.out.println(coinChange.coinChange(i, amount));
     }
 }
