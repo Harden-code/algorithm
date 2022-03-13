@@ -1,6 +1,5 @@
 package org.harden.coder.simple;
 
-import org.omg.CORBA.INTERNAL;
 
 /**
  * @author ：junsenfu

@@ -35,8 +35,6 @@ public class IsValidBST {
     /**
      * 利用中序遍历的有序性
      * @param root
-     * @param low
-     * @param top
      */
     public void reserve(TreeNode root) {
         if (root == null) {
