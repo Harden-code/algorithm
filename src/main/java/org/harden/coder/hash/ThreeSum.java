@@ -51,7 +51,7 @@ public class ThreeSum {
                 }
                 if (map.containsKey(-(nums[i] + nums[j]))) {
                     Integer value = map.get(-(nums[i] + nums[j]));
-                    //特殊情况  -1 2 0 0
+                    //特殊情况  -1  0 0 2 (i,j)都是在后面
                     if ( j <= value) {
                         List<Integer> list = new ArrayList<>();
                         list.add(nums[i]);
