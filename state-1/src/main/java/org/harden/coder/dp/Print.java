@@ -31,6 +31,7 @@ public class Print {
     }
 
     public static void print(int[] dp){
-        Arrays.stream(dp).forEach(System.out::println);
+        Arrays.stream(dp).forEach(System.out::print);
+        System.out.println();
     }
 }

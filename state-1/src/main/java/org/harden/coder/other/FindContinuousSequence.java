@@ -19,33 +19,35 @@ import java.util.List;
  */
 public class FindContinuousSequence {
     public int[][] findContinuousSequence(int target) {
-        List<int[]> result = new ArrayList<>();
-        int i = 1;
-        int j = 2;
+        List<int[]> list = new ArrayList<>();
+        // l 左窗口 r有窗口
+        int l = 1;
+        int r = 2;
         int sum = 3;
-        while (i < j) {
-            if (sum == target) {
-                int[] temp = new int[j - i + 1];
-                int p = 0;
-                for (int k = i; k <=j; k++) {
-                    temp[p++] = k;
-                }
-                result.add(temp);
-                sum -= i;
-                i++;
-            } else if (sum < target) {
-                j++;
-                sum += j;
+        //l<r  r<len && l<len 结束条件
+        while (l<r) {
+            if (sum < target) {
+                r++;
+                sum += r;
+            } else if (sum > target) {
+                sum -= l;
+                l++;
             } else {
-                sum -= i;
-                i++;
+                int[] nums = new int[r - l + 1];
+                int k=l;
+                for (int j = 0; j < nums.length; j++) {
+                    nums[j] = k++;
+                }
+                list.add(nums);
+                l++;
             }
         }
-        int[][] ints = new int[result.size()][];
-        for (int k = 0; k < result.size(); k++) {
-            ints[k] = result.get(k);
+
+        int[][] result = new int[list.size()][];
+        for (int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
         }
-        return ints;
+        return result;
     }
 
     public static void main(String[] args) {
