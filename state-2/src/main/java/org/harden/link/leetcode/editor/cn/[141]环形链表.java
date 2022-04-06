@@ -97,6 +97,10 @@ class LinkedListCycle {
                     return false;
                 }
                 fast = fast.next.next;
+
+                // if (slow == fast) {
+                //   return true;
+                //  } 移动到下方也可以避免第一次相同情况
             }
             return false;
         }
