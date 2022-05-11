@@ -48,11 +48,14 @@ class ShuZhiDeZhengShuCiFangLcof {
         Solution solution = new ShuZhiDeZhengShuCiFangLcof().new Solution();
 
 
-        System.out.println(solution.myPow(2, 10));
+//        System.out.println(8>>2);
+        System.out.println(solution.myPow(0.00001, 2147483647));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
+
         //输入：x = 2.00000, n = -2    x = 2.00000, n = 10
         //输出：0.25000                1024.00000
         //解释：2⁻² = 1/2² = 1/4 = 0.25
@@ -62,19 +65,37 @@ class ShuZhiDeZhengShuCiFangLcof {
             if(n>=0){
                return pow_r(x,n);
             }else {
-                return pow_r(1/x,-n);
+                // x=2.00000 n=-2147483648 先算出来再惩
+                return 1/(pow_r(x, -1*(n+1)) *x);
             }
         }
 
         private double pow_r(double x,int n){
+            //0 特殊情况
+            if(n==0){
+                return 1;
+            }
             if(n==1){
                 return x;
             }
-            if(n/2==1){
-                return pow_r(x,n/2)*pow_r(x,n/2);
+            //左移1 除2
+            double result=pow_r(x,n>>1);
+
+            if((n&1)==1){
+                //基数
+               return result*result*x;
             }else {
-                return pow_r(x,n-1)*x;
+                return result*result;
             }
+
+            //递归次数太多会超时
+//            if(n/2!=0&&n%2!=0){
+//                //奇数
+//              return pow_r(x,n/2)*pow_r(x,n/2)*x;
+//            }else {
+//                //偶数
+//                return pow_r(x,n/2)*pow_r(x,n/2);
+//            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
