@@ -1,10 +1,17 @@
 package org.harden.everyday;
 
+
+import org.omg.CORBA.CODESET_INCOMPATIBLE;
+
 import java.lang.reflect.Array;
-import java.lang.reflect.ParameterizedType;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author ：junsenfu
@@ -19,6 +26,45 @@ import java.util.Map;
 public class CanReorderDoubled {
 
     public boolean canReorderDoubled(int[] arr) {
+        Map<Integer,Integer> count=new HashMap<>();
+        List<Integer> list=new ArrayList<>();
+        int zero=0;
+        for (int i = 0; i < arr.length; i++) {
+            //0过滤
+            if(!count.containsKey(arr[i])&&arr[i]!=0){
+                list.add(arr[i]);
+            }
+            //去0
+            if(arr[i]==0){
+                zero++;
+                continue;
+            }
+            count.put(arr[i],count.getOrDefault(arr[i],0)+1);
+        }
+
+        //0只能是计数
+        if((zero&1)==1){
+            return false;
+        }
+        //1 2 4
+
+        //绝对值排序 -2 -4 2 -4 可以避免符号的判断
+        Collections.sort(list,(x,y)->Math.abs(x)-Math.abs(y));
+        for (int i = 0; i < list.size(); i++) {
+            int min=list.get(i);
+            int max=min*2;
+            int minCount=count.get(min);
+            if(minCount==0){
+                continue;
+            }
+            int maxCount=count.getOrDefault(max,0);
+            if(maxCount==0||maxCount<minCount){
+                return false;
+            }else {
+                //减少个数
+                count.put(max,count.get(max)-minCount);
+            }
+        }
         return true;
     }
 
@@ -28,9 +74,12 @@ public class CanReorderDoubled {
 //        int[] nums = {-3, -5};
 //        int[] nums = {2, 4, 0, 0, 8, 1};
 //        int[] nums = {-2, -6, -3, 4, -4, 2};
-//        int[] nums = {-5, -2};
-        int[] nums={1,2,1,-8,8,-4,4,-4,2,-2};
+        int[] nums = {-5, -2};
+//        int[] nums={1,2,1,-8,8,-4,4,-4,2,-2};
         CanReorderDoubled canReorderDoubled = new CanReorderDoubled();
         System.out.println(canReorderDoubled.canReorderDoubled(nums));
     }
+
+
+
 }
