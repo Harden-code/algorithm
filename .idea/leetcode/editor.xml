@@ -256,6 +256,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[153]寻找旋转排序数组中的最小值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[153]寻找旋转排序数组中的最小值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn153" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[153]寻找旋转排序数组中的最小值.java" />
+              <option name="titleSlug" value="find-minimum-in-rotated-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[162]寻找峰值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[162]寻找峰值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn162" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[162]寻找峰值.java" />
+              <option name="titleSlug" value="find-peak-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[33]搜索旋转排序数组.java">
           <value>
             <LeetcodeEditor>
@@ -289,6 +311,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[367]有效的完全平方数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[367]有效的完全平方数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn367" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[367]有效的完全平方数.java" />
+              <option name="titleSlug" value="valid-perfect-square" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[374]猜数字大小.java">
           <value>
             <LeetcodeEditor>
@@ -297,6 +330,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[374]猜数字大小.java" />
               <option name="titleSlug" value="guess-number-higher-or-lower" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[658]找到 K 个最接近的元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[658]找到 K 个最接近的元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn658" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[658]找到 K 个最接近的元素.java" />
+              <option name="titleSlug" value="find-k-closest-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[69]x 的平方根 .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[69]x 的平方根 .md" />
+              <option name="frontendQuestionId" value="leetcode.cn69" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[69]x 的平方根 .java" />
+              <option name="titleSlug" value="sqrtx" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -319,6 +374,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[744]寻找比目标字母大的最小字母.java" />
               <option name="titleSlug" value="find-smallest-letter-greater-than-target" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[852]山脉数组的峰顶索引.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/doc/content/[852]山脉数组的峰顶索引.md" />
+              <option name="frontendQuestionId" value="leetcode.cn852" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/search/leetcode/editor/cn/[852]山脉数组的峰顶索引.java" />
+              <option name="titleSlug" value="peak-index-in-a-mountain-array" />
             </LeetcodeEditor>
           </value>
         </entry>
