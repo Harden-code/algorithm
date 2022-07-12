@@ -80,6 +80,7 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
             while (inorder[k] != postorder[j]) {
                 k++;
             }
+            //inorder[k]是右
             int leftIndex = k - p ;
             TreeNode left = built(postorder, i, i+leftIndex-1, inorder, p, k-1);
             TreeNode right = built(postorder, i+leftIndex, j-1, inorder, k+ 1, q );

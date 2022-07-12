@@ -3,6 +3,215 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[131]分割回文串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[131]分割回文串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn131" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[131]分割回文串.java" />
+              <option name="titleSlug" value="palindrome-partitioning" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[17]电话号码的字母组合.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[17]电话号码的字母组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn17" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[17]电话号码的字母组合.java" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[216]组合总和 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[216]组合总和 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn216" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[216]组合总和 III.java" />
+              <option name="titleSlug" value="combination-sum-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[22]括号生成.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[22]括号生成.md" />
+              <option name="frontendQuestionId" value="leetcode.cn22" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[22]括号生成.java" />
+              <option name="titleSlug" value="generate-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[37]解数独.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[37]解数独.md" />
+              <option name="frontendQuestionId" value="leetcode.cn37" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[37]解数独.java" />
+              <option name="titleSlug" value="sudoku-solver" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[39]组合总和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[39]组合总和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn39" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[39]组合总和.java" />
+              <option name="titleSlug" value="combination-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[40]组合总和 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[40]组合总和 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[40]组合总和 II.java" />
+              <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[46]全排列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[46]全排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[46]全排列.java" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[47]全排列 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[47]全排列 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn47" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[47]全排列 II.java" />
+              <option name="titleSlug" value="permutations-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[77]组合.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[77]组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn77" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[77]组合.java" />
+              <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[78]子集.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[78]子集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn78" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[78]子集.java" />
+              <option name="titleSlug" value="subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[90]子集 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[90]子集 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn90" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[90]子集 II.java" />
+              <option name="titleSlug" value="subsets-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[93]复原 IP 地址.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[93]复原 IP 地址.md" />
+              <option name="frontendQuestionId" value="leetcode.cn93" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[93]复原 IP 地址.java" />
+              <option name="titleSlug" value="restore-ip-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[面试题 08.12]八皇后.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/doc/content/[面试题 08.12]八皇后.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/backtrace/leetcode/editor/cn/[面试题 08.12]八皇后.java" />
+              <option name="titleSlug" value="eight-queens-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[208]实现 Trie (前缀树).java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/doc/content/[208]实现 Trie (前缀树).md" />
+              <option name="frontendQuestionId" value="leetcode.cn208" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[208]实现 Trie (前缀树).java" />
+              <option name="titleSlug" value="implement-trie-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[23]合并K个升序链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/doc/content/[23]合并K个升序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn23" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[23]合并K个升序链表.java" />
+              <option name="titleSlug" value="merge-k-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[295]数据流的中位数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/doc/content/[295]数据流的中位数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn295" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[295]数据流的中位数.java" />
+              <option name="titleSlug" value="find-median-from-data-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[347]前 K 个高频元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/doc/content/[347]前 K 个高频元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn347" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[347]前 K 个高频元素.java" />
+              <option name="titleSlug" value="top-k-frequent-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[973]最接近原点的 K 个点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/doc/content/[973]最接近原点的 K 个点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn973" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/dump/leetcode/editor/cn/[973]最接近原点的 K 个点.java" />
+              <option name="titleSlug" value="k-closest-points-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/hash/leetcode/editor/cn/[1122]数组的相对排序.java">
           <value>
             <LeetcodeEditor>
@@ -1265,6 +1474,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/tree/leetcode/editor/cn/[剑指 Offer 32 - I]从上到下打印二叉树.java" />
               <option name="titleSlug" value="cong-shang-dao-xia-da-yin-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/tree/leetcode/editor/cn/[剑指 Offer 33]二叉搜索树的后序遍历序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/tree/leetcode/editor/cn/doc/content/[剑指 Offer 33]二叉搜索树的后序遍历序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 33" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/tree/leetcode/editor/cn/[剑指 Offer 33]二叉搜索树的后序遍历序列.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

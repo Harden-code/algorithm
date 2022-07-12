@@ -87,7 +87,7 @@ class Solution {
         root.left=null;
         tail.right=root;
         root.left=tail;
-        tail=tail.right;
+        tail=root;
         dfs(right);
     }
 
