@@ -52,7 +52,9 @@ class MaximumSubarray {
     public static void main(String[] args) {
         Solution solution = new MaximumSubarray().new Solution();
     }
-
+    private void demp(int ... arr){
+        int[] temp=arr;
+    }
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxSubArray(int[] nums) {
@@ -70,6 +72,8 @@ class MaximumSubarray {
             }
             return max;
         }
+
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

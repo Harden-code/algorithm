@@ -883,6 +883,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[121]买卖股票的最佳时机.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[121]买卖股票的最佳时机.md" />
+              <option name="frontendQuestionId" value="leetcode.cn121" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[121]买卖股票的最佳时机.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[15]三数之和.java">
           <value>
             <LeetcodeEditor>
@@ -905,6 +916,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[238]除自身以外数组的乘积.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[238]除自身以外数组的乘积.md" />
+              <option name="frontendQuestionId" value="leetcode.cn238" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[238]除自身以外数组的乘积.java" />
+              <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[283]移动零.java">
           <value>
             <LeetcodeEditor>
@@ -924,6 +946,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[344]反转字符串.java" />
               <option name="titleSlug" value="reverse-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[42]接雨水.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[42]接雨水.md" />
+              <option name="frontendQuestionId" value="leetcode.cn42" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[42]接雨水.java" />
+              <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -957,6 +990,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[75]颜色分类.java" />
               <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[76]最小覆盖子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[76]最小覆盖子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn76" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[76]最小覆盖子串.java" />
+              <option name="titleSlug" value="minimum-window-substring" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1001,6 +1045,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[剑指 Offer 57 - II]和为s的连续正数序列.java" />
               <option name="titleSlug" value="he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[面试题 05.03]翻转数位.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[面试题 05.03]翻转数位.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.03" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[面试题 05.03]翻转数位.java" />
+              <option name="titleSlug" value="reverse-bits-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1678,10 +1733,10 @@
         <entry key="$PROJECT_DIR$/state-2/src/main/java/org/harden/stack/leetcode/editor/cn/[42]接雨水.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/stack/leetcode/editor/cn/doc/content/[42]接雨水.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/doc/content/[42]接雨水.md" />
               <option name="frontendQuestionId" value="leetcode.cn42" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/stack/leetcode/editor/cn/[42]接雨水.java" />
+              <option name="path" value="$PROJECT_DIR$/state-2/src/main/java/org/harden/other/leetcode/editor/cn/[42]接雨水.java" />
               <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
