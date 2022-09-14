@@ -79,7 +79,7 @@ class ThreeSum {
                         k++;
                         continue;
                     }
-                    //顺序颠倒
+                    //顺序颠倒 去重
                     if (h + 1 <= j && nums[h] == nums[h + 1]) {
                         h--;
                         continue;
@@ -87,7 +87,7 @@ class ThreeSum {
                     int sum = out + nums[k] + nums[h];
                     if (sum == 0) {
                         List<Integer> list = Arrays.asList(out, nums[k], nums[h]);
-
+                        //a>b>c下标排序
                         //不能直接break -4+1+3 -4+0-4
                         k++;
                         h--;

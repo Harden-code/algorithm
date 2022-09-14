@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+
+
 /**
  * @author ：junsenfu
  * @date ：Created in 2022/7/26 19:38
@@ -19,20 +22,37 @@ public class LenLongestFibSubseq {
     //    输出: 3
     //    解释: 最长的斐波那契式子序列有 [1,11,12]、[3,11,14] 以及 [7,11,18] fn=f(n-1)+f(n-2) n=0 n=1
     public int lenLongestFibSubseq(int[] arr) {
-//        int[][] dp=new int[arr.length][arr.length];
+        int[][] dp=new int[arr.length][arr.length];
 
         //建立索引
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
             map.put(arr[i], i);
         }
-
+        //dp[i][j]表示i->j的最长斐波拉气
         //填充1
         //1,2,3,4,5,6,7,8
-        for (int j = 2; j<arr.length; j--) {
-
+        for (int i = 0; i<arr.length; i++) {
+            for (int j = i+1; j<arr.length; j++) {
+                dp[i][j]=2;
+            }
         }
-
+        int count=2;
+        //k-i-j
+        for (int i = 0; i<arr.length; i++) {
+            for (int j = i+1; j<arr.length; j++) {
+                int val=arr[j]-arr[i];
+                if(map.containsKey(val)){
+                    int index=map.get(val);
+                    if(index<i){
+                        //k-i 跳到j
+                        dp[i][j]=Math.max(dp[i][j],dp[index][i]+1);
+                    }
+                }
+                count= Math.max(dp[i][j],count);
+            }
+        }
+        print(dp);
 
 
 
@@ -42,6 +62,11 @@ public class LenLongestFibSubseq {
         return count;
     }
 
+    public static void print(int[][] target) {
+        for (int i = 0; i < target.length; i++) {
+            System.out.println(Arrays.toString(target[i]));
+        }
+    }
 
     private int count;
 

@@ -26,6 +26,7 @@ class FindClosestLcci{
    }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+        //转化成最小差=>word1 距离 word2 距离 比较
     public int findClosest(String[] words, String word1, String word2) {
         int min=Integer.MAX_VALUE;
         for (int i = 0; i < words.length; i++) {
