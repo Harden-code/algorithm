@@ -19,6 +19,7 @@ public class SpecialArray {
         }
         for (int i = 0; i < nums.length; i++) {
             int val = nums[i];
+            //判断当前元素是否比当前元素大大个数大
             if (val >= dump[i]) {
                 int j = i - 1;
                 //判断前面元素是否 大于当前元素
