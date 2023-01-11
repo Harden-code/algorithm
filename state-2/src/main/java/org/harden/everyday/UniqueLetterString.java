@@ -1,7 +1,5 @@
 package org.harden.everyday;
 
-import javafx.scene.shape.SVGPath;
-
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.Arrays;
